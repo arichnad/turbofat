@@ -1,6 +1,20 @@
 # turbofat
 Block-dropping puzzle game
 
+# Building
+
+* godot 3.2+ is required.
+
+* start the godot UI and click Editor -> Manage Export Templates
+
+* click on Download next to one of the templates.
+
+* after the download completes, you can do an export in Project -> Export to export a project.
+
+* (you can also build from the command line:  `godot project.godot --export "Windows Desktop" "Turbo Fat.exe"`
+
+on linux:  `godot project.godot --export "Linux/X11" turbofat`)
+
 # Glossary
 
 Here's a glossary of terms used within the code. When editing code, try to use consistent terms like "each cubit" instead of "each piece", or "whenever the player sees" instead of "whenever you see"
